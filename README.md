@@ -16,7 +16,7 @@ This project bridges the gap between job postings and actionable insights by ana
 - **What skills are most in demand?**
 - **How can job seekers align their skills with market needs?**
 
-Using a dataset containing job postings, companies, salaries, and skills, this project applies **SQL** to uncover patterns and trends. While the focus is on roles like **Data Analyst** and **Data Scientist**, the queries are adaptable for other roles, industries, or regions, making it a versatile tool for exploring the modern job market.
+Using a dataset containing job postings, companies, salaries, and skills, this project applies **SQL** to uncover patterns and trends. While the focus is on roles like **Data Scientist** and **Data Scientist**, the queries are adaptable for other roles, industries, or regions, making it a versatile tool for exploring the modern job market.
 
 # Tools Used
 
@@ -31,7 +31,7 @@ For my deep dive into the data scientist job market, I harnessed the power of se
 
 Each query in this project was designed to explore specific aspects of the data scientist job market, providing targeted insights to answer key questions.
 
-### 1. Top Paying Data Analyst Jobs
+### 1. Top Paying Data Scientist Jobs
 To uncover the highest-paying roles, I analyzed data scientist positions by filtering based on average yearly salary and location, with a focus on opportunities in India. This query sheds light on lucrative job prospects within the field.
 
 ```sql
@@ -304,7 +304,7 @@ ORDER BY
 
 *Table of the most optimal skills for data scientist sorted by demand*
 
-Here's a breakdown of the most optimal skills for Data Analysts in 2023: 
+Here's a breakdown of the most optimal skills for Data Scientists: 
 ### High-Demand and High-Paying Skills:
 
 - Skills like **databricks, snowflake, and hadoop** are associated with the highest average salary of $170,575 while maintaining significant demand.
