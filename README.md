@@ -120,7 +120,7 @@ Salary and Skill Correlation:
 
 
 
-### 3. In-Demand Skills for Data Analysts
+### 3. In-Demand Skills for Data Scientists
 
 This query helped identify the skills most frequently requested in job postings, directing focus to areas with high demand.
 
