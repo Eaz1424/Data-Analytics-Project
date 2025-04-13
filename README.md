@@ -16,7 +16,7 @@ This project bridges the gap between job postings and actionable insights by ana
 - **What skills are most in demand?**
 - **How can job seekers align their skills with market needs?**
 
-Using a dataset containing job postings, companies, salaries, and skills, this project applies **SQL** to uncover patterns and trends. While the focus is on roles like **Data Scientist** and **Data Scientist**, the queries are adaptable for other roles, industries, or regions, making it a versatile tool for exploring the modern job market.
+Using a dataset containing job postings, companies, salaries, and skills, this project applies **SQL** to uncover patterns and trends. While the focus is on roles like **Data Scientist**, the queries are adaptable for other roles, industries, or regions, making it a versatile tool for exploring the modern job market.
 
 # Tools Used
 
