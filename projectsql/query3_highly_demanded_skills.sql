@@ -1,18 +1,21 @@
-select
-    --job.job_title_short,
-    skills,
-    count(skills) as demand_count
+-- This query identifies the top 10 most in-demand skills for data scientist roles in India
+-- Why? Retrieves the top skills with the highest demand in the job market,providing insights into the most valuable skills for job seekers.
+SELECT
+    skills, 
+    COUNT(skills) AS demand_count 
 
 FROM
-    (job_postings_fact as job inner join skills_job_dim as skills on job.job_id=skills.job_id) 
-    inner join skills_dim as sk on sk.skill_id=skills.skill_id
+    (job_postings_fact AS job 
+    INNER JOIN skills_job_dim AS skills ON job.job_id = skills.job_id) -- joins job postings with job-skill mapping
+    INNER JOIN skills_dim AS sk ON sk.skill_id = skills.skill_id -- joins the result with skills data
 WHERE
-    job_title_short='Data Scientist' and job_location='India'
+    job_title_short = 'Data Scientist' 
+    AND job_location = 'India' 
 
-group by 
-    skills
+GROUP BY 
+    skills 
 
-order by 
+ORDER BY 
     demand_count DESC
 
-limit 10;
+LIMIT 10;
